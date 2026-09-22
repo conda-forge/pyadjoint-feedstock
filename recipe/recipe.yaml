@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2026.4.1"
+  version: "2026.9.0"
 
 package:
   name: pyadjoint
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyadjoint-ad/pyadjoint_ad-${{ version }}.tar.gz
-  sha256: 63c88d65b2d1ad573ffa56dee22056ee0692501961c8dd0b7c5b47622d8afc27  
+  sha256: dd5ff4bd68c3be5f844cbbbad42c6fc9b75d68aa15a49f9c069886bc6df52571
 
 build:
   number: 0
@@ -27,7 +27,7 @@ requirements:
     - scipy >=1.0
     - sympy
     - checkpoint-schedules
-    
+
 tests:
   - python:
       imports:
