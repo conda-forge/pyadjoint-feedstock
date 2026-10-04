@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2026.9.0"
+  version: "2026.10.0"
 
 package:
   name: pyadjoint
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyadjoint-ad/pyadjoint_ad-${{ version }}.tar.gz
-  sha256: dd5ff4bd68c3be5f844cbbbad42c6fc9b75d68aa15a49f9c069886bc6df52571
+  sha256: 5c7e3041ebb0009760ef768a4f088c69f9bbaea052ae7013f3cd836c5571cca4
 
 build:
   number: 0
